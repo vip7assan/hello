@@ -12,7 +12,7 @@ $(function(){
        
        };
         
-        alert("lll")
+       
 
 var mas= server.request({route:{app:'load'}});
 mas.done(function(data){
@@ -144,7 +144,7 @@ mas.done(function(data){
  	var mas= server.request({route:{app:'sub',count:count,sex:sex,rag:rag,iqm:iqm,stat:stat,lvl:lvl,inter:inter,jobs:jobs,email:email,year:year,m:m,fname:fname,lname:lname,citys:citys,phone:phone}});
             mas.done(function(data){
 	
-	        alert("thank you");
+	         document.getElementById("vip").click();
            document.getElementById("fill").reset();
 	
 });}
